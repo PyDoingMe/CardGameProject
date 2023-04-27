@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CardSprites
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 8192
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 4485f8e38c492ab429a33cecb1d11b26, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 213a1fa009e4a1741b6a3dabdef132b6, type: 3}
+  - {fileID: 21300000, guid: 16b602d027a45ce489f75eeca33c101c, type: 3}
+  - {fileID: 21300000, guid: a5871a1186a1dc54ead511f85aef3ebf, type: 3}
+  - {fileID: 21300000, guid: fb3a58b122ba2ed40864e27c600f94ae, type: 3}
+  - {fileID: 21300000, guid: 40ebaec1fb757214d8ba589785c41648, type: 3}
+  - {fileID: 21300000, guid: 66c784d11c42bc54eb81a304627421e0, type: 3}
+  - {fileID: 21300000, guid: 580dad427b718f54e84e38bd293c7e77, type: 3}
+  - {fileID: 21300000, guid: c929de5263a5b744a992c4c918ffe0d3, type: 3}
+  - {fileID: 21300000, guid: 54110a821f495594484b2eee5ed5b838, type: 3}
+  - {fileID: 21300000, guid: 89863804d6a4cf94a8e63dfcf4674892, type: 3}
+  - {fileID: 21300000, guid: 6e099224b8f278b478396d2ee5b96161, type: 3}
+  - {fileID: 21300000, guid: e1e4dcb4468dc2b4fb59d8881879286f, type: 3}
+  - {fileID: 21300000, guid: 1efa54156c787c44fa30b1c2e82efd5e, type: 3}
+  - {fileID: 21300000, guid: 503d8165b75d649478122479d157927d, type: 3}
+  - {fileID: 21300000, guid: b85a88a6cc2c40943af4f27d3c7fca8b, type: 3}
+  - {fileID: 21300000, guid: 963e99b66d560ea4680130143a117227, type: 3}
+  - {fileID: 21300000, guid: 4ccd6ee692134e3458307adc176029ba, type: 3}
+  - {fileID: 21300000, guid: 08688b670dc902843b24f719ae730a16, type: 3}
+  - {fileID: 21300000, guid: d63ba5a78a522cc4db53509a4963ac3e, type: 3}
+  - {fileID: 21300000, guid: 6ccd2d89b1b1bcb4a93f5ef90d7496d7, type: 3}
+  - {fileID: 21300000, guid: fb02a1f92b5bf87439da6f2f04b5978d, type: 3}
+  - {fileID: 21300000, guid: e317723a7e0643c4eb6a6180422abcc7, type: 3}
+  - {fileID: 21300000, guid: 6e98fccb86e053a4c9f208321316c068, type: 3}
+  - {fileID: 21300000, guid: f22dd6eb5b1c6bf42b3dce1cb0e02128, type: 3}
+  - {fileID: 21300000, guid: ebace9eb98111d5448f604d36fc03437, type: 3}
+  - {fileID: 21300000, guid: 0149cb8cd076f5345b0f4bc8a2c292bf, type: 3}
+  - {fileID: 21300000, guid: 14971fed12b0b1e4babea61663537d44, type: 3}
+  - {fileID: 21300000, guid: b4bb6d3ef3b328e4090ddfce9ce4cc21, type: 3}
+  - {fileID: 21300000, guid: 6ed56cde58ff14541bf593f1c7a4f6b2, type: 3}
+  - {fileID: 21300000, guid: dbef832f7aaf2f64eb083c590408e4fb, type: 3}
+  - {fileID: 21300000, guid: 571de74f133f00141bbd36c69f836d3a, type: 3}
+  - {fileID: 21300000, guid: a577eb8faa384c54f9929d104f606664, type: 3}
+  - {fileID: 21300000, guid: 26d734af2e1ce6847aa63ee8bacc9a8f, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - screenshot
+  - "\uC2A4\uD06C\uB9B0\uC0F7_20230104_125217 10"
+  - "\uC2A4\uD06C\uB9B0\uC0F7_20230113_122522 15"
+  - "\uC2A4\uD06C\uB9B0\uC0F7_20230104_125217 6"
+  - "\uC2A4\uD06C\uB9B0\uC0F7_20230113_122522 11"
+  - "\uC2A4\uD06C\uB9B0\uC0F7_20230113_122522 4"
+  - "\uC2A4\uD06C\uB9B0\uC0F7_20230104_125217 5"
+  - "\uC2A4\uD06C\uB9B0\uC0F7_20230104_125217 1"
+  - "\uC2A4\uD06C\uB9B0\uC0F7_20230104_125217 14"
+  - "\uC2A4\uD06C\uB9B0\uC0F7_20230113_122522 6"
+  - "\uC2A4\uD06C\uB9B0\uC0F7_20230113_122522"
+  - "\uC2A4\uD06C\uB9B0\uC0F7_20230104_125217 12"
+  - "\uC2A4\uD06C\uB9B0\uC0F7_20230113_122522 9"
+  - "\uC2A4\uD06C\uB9B0\uC0F7_20230104_125217 2"
+  - "\uC2A4\uD06C\uB9B0\uC0F7_20230104_125217 11"
+  - "\uC2A4\uD06C\uB9B0\uC0F7_20230104_125217 4"
+  - "\uC2A4\uD06C\uB9B0\uC0F7_20230113_122522 8"
+  - "\uC2A4\uD06C\uB9B0\uC0F7_20230113_122522 14"
+  - "\uC2A4\uD06C\uB9B0\uC0F7_20230104_125217 7"
+  - "\uC2A4\uD06C\uB9B0\uC0F7_20230113_122522 7"
+  - "\uC2A4\uD06C\uB9B0\uC0F7_20230113_122522 10"
+  - "\uC2A4\uD06C\uB9B0\uC0F7_20230104_125217 15"
+  - "\uC2A4\uD06C\uB9B0\uC0F7_20230104_125217"
+  - "\uC2A4\uD06C\uB9B0\uC0F7_20230104_125217 3"
+  - "\uC2A4\uD06C\uB9B0\uC0F7_20230104_125217 8"
+  - "\uC2A4\uD06C\uB9B0\uC0F7_20230113_122522 3"
+  - "\uC2A4\uD06C\uB9B0\uC0F7_20230113_122522 12"
+  - "\uC2A4\uD06C\uB9B0\uC0F7_20230113_122522 1"
+  - "\uC2A4\uD06C\uB9B0\uC0F7_20230113_122522 5"
+  - "\uC2A4\uD06C\uB9B0\uC0F7 2023-03-12 233054"
+  - "\uC2A4\uD06C\uB9B0\uC0F7_20230113_122522 2"
+  - "\uC2A4\uD06C\uB9B0\uC0F7_20230113_122522 13"
+  - "\uC2A4\uD06C\uB9B0\uC0F7_20230104_125217 13"
+  m_RenderDataMap: {}
+  m_Tag: CardSprites
+  m_IsVariant: 0

@@ -1,0 +1,271 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fef4d862844d1f41b0499bf43fd1a7a, type: 3}
+  m_Name: ItemSO
+  m_EditorClassIdentifier: 
+  items:
+  - cardType: "\uAE30\uC0AC\uCE74\uB4DC"
+    cardName: "\uC6B0\uB514\uC628\uC758 \uBD88:\uB098\uC9C4"
+    cardGrade: "\uACAC\uC2B5\uAE30\uC0AC"
+    attackPoint: 10
+    healthPoint: 10
+    cost: 1
+    ability: 0
+    sprite: {fileID: 0}
+  - cardType: "\uAE30\uC0AC\uCE74\uB4DC"
+    cardName: "\uAEBC\uC9C0\uC9C0 \uC54A\uC740 \uC794\uBD88:\uB098\uACAC"
+    cardGrade: "\uACAC\uC2B5\uAE30\uC0AC"
+    attackPoint: 1
+    healthPoint: 1
+    cost: 4
+    ability: 0
+    sprite: {fileID: 0}
+  - cardType: "\uAE30\uC0AC\uCE74\uB4DC"
+    cardName: "\uC783\uC5B4 \uBC84\uB9B0 \uAE30\uC5B5:\uB77C\uC6B0\uC900"
+    cardGrade: "\uACAC\uC2B5\uAE30\uC0AC"
+    attackPoint: 2
+    healthPoint: 4
+    cost: 3
+    ability: 0
+    sprite: {fileID: 0}
+  - cardType: "\uAE30\uC0AC\uCE74\uB4DC"
+    cardName: "\uC2E0\uB150\uC788\uB294 \uB048\uAE30:\uB8E8\uC9C0\uC548"
+    cardGrade: "\uACAC\uC2B5\uAE30\uC0AC"
+    attackPoint: 1
+    healthPoint: 3
+    cost: 1
+    ability: 0
+    sprite: {fileID: 0}
+  - cardType: "\uAE30\uC0AC\uCE74\uB4DC"
+    cardName: "\uC2E0\uC18D\uD55C \uC219\uACE0:\uD2F0\uB974"
+    cardGrade: "\uACAC\uC2B5\uAE30\uC0AC"
+    attackPoint: 1
+    healthPoint: 4
+    cost: 2
+    ability: 0
+    sprite: {fileID: 0}
+  - cardType: "\uAE30\uC0AC\uCE74\uB4DC"
+    cardName: "\uC4F0\uB808\uAE30\uC758 \uAC00\uBA74:\uB8E8\uC2A4"
+    cardGrade: "\uACAC\uC2B5\uAE30\uC0AC"
+    attackPoint: 3
+    healthPoint: 7
+    cost: 4
+    ability: 0
+    sprite: {fileID: 0}
+  - cardType: "\uAE30\uC0AC\uCE74\uB4DC"
+    cardName: "\uB208\uBB3C \uB9CE\uC740 \uC7A5\uC791:\uCF70\uB9C1"
+    cardGrade: "\uACAC\uC2B5\uAE30\uC0AC"
+    attackPoint: 1
+    healthPoint: 7
+    cost: 3
+    ability: 0
+    sprite: {fileID: 0}
+  - cardType: "\uAE30\uC0AC\uCE74\uB4DC"
+    cardName: "\uC2E4\uB208:\uB2E4\uB9AC\uACE4"
+    cardGrade: "\uACAC\uC2B5\uAE30\uC0AC"
+    attackPoint: 1
+    healthPoint: 5
+    cost: 2
+    ability: 0
+    sprite: {fileID: 0}
+  - cardType: "\uAE30\uC0AC\uCE74\uB4DC"
+    cardName: "\uC9DD\uB208:\uC640\uB4DC\uB9B0"
+    cardGrade: "\uACAC\uC2B5\uAE30\uC0AC"
+    attackPoint: 2
+    healthPoint: 6
+    cost: 3
+    ability: 0
+    sprite: {fileID: 0}
+  - cardType: "\uAE30\uC0AC\uCE74\uB4DC"
+    cardName: "\uC740\uD558\uB958\uC758 \uD6C4\uACC4\uC790:\uC728\uB2C8\uC544"
+    cardGrade: "\uACAC\uC2B5\uAE30\uC0AC"
+    attackPoint: 1
+    healthPoint: 3
+    cost: 2
+    ability: 0
+    sprite: {fileID: 0}
+  - cardType: "\uAE30\uC0AC\uCE74\uB4DC"
+    cardName: "\uC21C\uC560\uBCF4\uC758 \uD314\uC790 \uC8FC\uB984:\uB20C\uC9C4"
+    cardGrade: "\uACAC\uC2B5\uAE30\uC0AC"
+    attackPoint: 2
+    healthPoint: 7
+    cost: 4
+    ability: 0
+    sprite: {fileID: 0}
+  - cardType: "\uAE30\uC0AC\uCE74\uB4DC"
+    cardName: "\uBD89\uC740 \uBBF8\uC5ED:\uD30C\uC774\uBA5C"
+    cardGrade: "\uACAC\uC2B5\uAE30\uC0AC"
+    attackPoint: 2
+    healthPoint: 8
+    cost: 4
+    ability: 0
+    sprite: {fileID: 0}
+  - cardType: "\uAE30\uC0AC\uCE74\uB4DC"
+    cardName: "\uC2AC\uD508 \uB208:\uB9AC\uC544\uBBFC"
+    cardGrade: "\uACAC\uC2B5\uAE30\uC0AC"
+    attackPoint: 3
+    healthPoint: 9
+    cost: 5
+    ability: 0
+    sprite: {fileID: 0}
+  - cardType: "\uAE30\uC0AC\uCE74\uB4DC"
+    cardName: "\uCD5C\uAC15\uC758 \uC18C\uB140:\uB9C8\uB974\uC0E4"
+    cardGrade: "\uACAC\uC2B5\uAE30\uC0AC"
+    attackPoint: 1
+    healthPoint: 3
+    cost: 1
+    ability: 0
+    sprite: {fileID: 0}
+  - cardType: "\uAE30\uC0AC\uCE74\uB4DC"
+    cardName: "\uCD5C\uCD08\uC758 \uAE30\uC0AC"
+    cardGrade: "\uC790\uC720\uAE30\uC0AC"
+    attackPoint: 8
+    healthPoint: 8
+    cost: 8
+    ability: 0
+    sprite: {fileID: 0}
+  - cardType: "\uAE30\uC0AC\uCE74\uB4DC"
+    cardName: "\uC545\uB9C8 \uAE30\uC0AC"
+    cardGrade: "\uC790\uC720\uAE30\uC0AC"
+    attackPoint: 8
+    healthPoint: 8
+    cost: 8
+    ability: 0
+    sprite: {fileID: 0}
+  - cardType: "\uAE30\uC0AC\uCE74\uB4DC"
+    cardName: "\uAC80\uBD89\uC740 \uD558\uB9C8:\uD78C\uC154"
+    cardGrade: "\uACA9\uAE30\uC0AC"
+    attackPoint: 10
+    healthPoint: 10
+    cost: 4
+    ability: 0
+    sprite: {fileID: 0}
+  - cardType: "\uAE30\uC0AC\uCE74\uB4DC"
+    cardName: "\uD68C\uC0C9 \uC871\uC81C\uBE44:\uD305\uD06C"
+    cardGrade: "\uACA9\uAE30\uC0AC"
+    attackPoint: 4
+    healthPoint: 6
+    cost: 3
+    ability: 0
+    sprite: {fileID: 0}
+  - cardType: "\uAE30\uC0AC\uCE74\uB4DC"
+    cardName: "\uD770 \uC0AC\uC2B4:\uD30C\uB514\uC580"
+    cardGrade: "\uACA9\uAE30\uC0AC"
+    attackPoint: 3
+    healthPoint: 11
+    cost: 6
+    ability: 0
+    sprite: {fileID: 0}
+  - cardType: "\uAE30\uC0AC\uCE74\uB4DC"
+    cardName: "\uD68C\uC801\uC0C9 \uC5EC\uC6B0:\uB8E8\uB514\uCE74"
+    cardGrade: "\uACA9\uAE30\uC0AC"
+    attackPoint: 3
+    healthPoint: 9
+    cost: 5
+    ability: 0
+    sprite: {fileID: 0}
+  - cardType: "\uAE30\uC0AC\uCE74\uB4DC"
+    cardName: "\uD478\uB978 \uC2B9\uB0E5\uC774:\uD53C\uB3C4\uB780\uC2A4"
+    cardGrade: "\uACA9\uAE30\uC0AC"
+    attackPoint: 3
+    healthPoint: 7
+    cost: 4
+    ability: 0
+    sprite: {fileID: 0}
+  - cardType: "\uAE30\uC0AC\uCE74\uB4DC"
+    cardName: "\uB2F4\uCCAD\uC0C9 \uAE30\uB9B0:\uC9C0\uC6B0\uC2A4"
+    cardGrade: "\uACA9\uAE30\uC0AC"
+    attackPoint: 1
+    healthPoint: 5
+    cost: 2
+    ability: 0
+    sprite: {fileID: 0}
+  - cardType: "\uAE30\uC0AC\uCE74\uB4DC"
+    cardName: "\uC0C8\uAE4C\uB9CC \uB2ED:\uC640\uB860"
+    cardGrade: "\uACA9\uAE30\uC0AC"
+    attackPoint: 10
+    healthPoint: 10
+    cost: 4
+    ability: 0
+    sprite: {fileID: 0}
+  - cardType: "\uBB34\uAE30\uCE74\uB4DC"
+    cardName: "\uCC9C\uCE6D"
+    cardGrade: "\uBCF4\uAE09\uBB34\uAE30"
+    attackPoint: 2
+    healthPoint: 1
+    cost: 2
+    ability: 0
+    sprite: {fileID: 0}
+  - cardType: "\uBB34\uAE30\uCE74\uB4DC"
+    cardName: "\uBCBC\uB77D"
+    cardGrade: "\uBCF4\uAE09\uBB34\uAE30"
+    attackPoint: 1
+    healthPoint: 1
+    cost: 1
+    ability: 0
+    sprite: {fileID: 0}
+  - cardType: "\uBB34\uAE30\uCE74\uB4DC"
+    cardName: "\uD587\uBE5B\uC744 \uBA38\uAE08\uB294 \uB2E8\uAC80"
+    cardGrade: "\uBCF4\uAE09\uBB34\uAE30"
+    attackPoint: 1
+    healthPoint: 1
+    cost: 2
+    ability: 0
+    sprite: {fileID: 0}
+  - cardType: "\uBB34\uAE30\uCE74\uB4DC"
+    cardName: "\uAC8C\uBBF8\uB2C8"
+    cardGrade: "\uBCF4\uAE09\uBB34\uAE30"
+    attackPoint: 4
+    healthPoint: 2
+    cost: 3
+    ability: 0
+    sprite: {fileID: 0}
+  - cardType: "\uBB34\uAE30\uCE74\uB4DC"
+    cardName: "\uC9C0\uB290\uB7EC\uBBF8"
+    cardGrade: "\uBCF4\uAE09\uBB34\uAE30"
+    attackPoint: 1
+    healthPoint: 2
+    cost: 2
+    ability: 0
+    sprite: {fileID: 0}
+  - cardType: "\uBB34\uAE30\uCE74\uB4DC"
+    cardName: "\uD558\uB9C8 \uD131"
+    cardGrade: "\uB9C8\uC2A4\uD130\uD53C\uC2A4"
+    attackPoint: 1
+    healthPoint: 2
+    cost: 4
+    ability: 0
+    sprite: {fileID: 0}
+  - cardType: "\uBB34\uAE30\uCE74\uB4DC"
+    cardName: "\uC5B4\uAE08\uB2C8"
+    cardGrade: "\uB9C8\uC2A4\uD130\uD53C\uC2A4"
+    attackPoint: 1
+    healthPoint: 1
+    cost: 3
+    ability: 0
+    sprite: {fileID: 0}
+  - cardType: "\uBB34\uAE30\uCE74\uB4DC"
+    cardName: "\uC1A1\uACF3\uB2C8"
+    cardGrade: "\uB9C8\uC2A4\uD130\uD53C\uC2A4"
+    attackPoint: 1
+    healthPoint: 1
+    cost: 3
+    ability: 0
+    sprite: {fileID: 0}
+  - cardType: "\uBB34\uAE30\uCE74\uB4DC"
+    cardName: "\uACA8\uC6B0\uC0B4\uC774"
+    cardGrade: "\uB098\uB9B0\uAE30"
+    attackPoint: 0
+    healthPoint: 1
+    cost: 5
+    ability: 0
+    sprite: {fileID: 0}
