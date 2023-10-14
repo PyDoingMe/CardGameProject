@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{88A41BB0-917D-FD67-9A16-812CA6FBD403}</ProjectGuid>
+    <ProjectGuid>{E5E363D4-8DE0-9A5A-A298-7D6538143DBB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,6 +56,8 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\NewMaterialChange.cs" />
+    <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\ForEffects\LookAtTarget.cs" />
     <Compile Include="Assets\UltimateCircularHealthBar\Scripts\UCHBExtensions.cs" />
     <Compile Include="Assets\UltimateCircularHealthBar\Scripts\ShaderProperty.cs" />
     <Compile Include="Assets\Scripts\Manager\GameManager.cs" />
@@ -66,42 +68,41 @@
     <Compile Include="Assets\Scripts\Manager\SpriteManager.cs" />
     <Compile Include="Assets\Scripts\SO\ItemSO.cs" />
     <Compile Include="Assets\Scripts\Manager\FieldManager.cs" />
+    <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\ForEffects\ObjectMoveDestroy.cs" />
     <Compile Include="Assets\Scripts\Server\NetworkManager_Client.cs" />
     <Compile Include="Assets\Scripts\Manager\TurnManager.cs" />
     <Compile Include="Assets\UltimateCircularHealthBar\Scripts\RadialSegmentedHealthBar.cs" />
     <Compile Include="Assets\UltimateCircularHealthBar\Scripts\CompoundHealthBar.cs" />
+    <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\VariousRotateObject.cs" />
     <Compile Include="Assets\Scripts\UI\EndTurnButton.cs" />
     <Compile Include="Assets\Scripts\Entity.cs" />
+    <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\ForEffects\ShieldActivate.cs" />
     <Compile Include="Assets\Scripts\Card.cs" />
+    <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\ScaleFactorApplyToMaterial.cs" />
     <Compile Include="Assets\Scripts\Manager\DeckManager.cs" />
     <Compile Include="Assets\UltimateCircularHealthBar\DemoScene\Scripts\movex.cs" />
     <Compile Include="Assets\Scripts\Deck.cs" />
+    <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\VariousEffectsScene.cs" />
+    <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\DelayActive.cs" />
+    <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\VariousMouseOrbit.cs" />
     <Compile Include="Assets\Test.cs" />
+    <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\ForEffects\MultipleObjectsMake.cs" />
     <Compile Include="Assets\Scripts\Ability.cs" />
+    <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\VariousTranslateMove.cs" />
     <Compile Include="Assets\Scripts\Util.cs" />
     <Compile Include="Assets\Scripts\UI\YourTurn.cs" />
     <Compile Include="Assets\Scripts\Server\DDO.cs" />
     <Compile Include="Assets\Scripts\EnemyField.cs" />
+    <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\ChangeSizeColor.cs" />
     <Compile Include="Assets\Scripts\GameDirector.cs" />
     <Compile Include="Assets\UltimateCircularHealthBar\Scripts\StatusBarsManager.cs" />
     <Compile Include="Assets\UltimateCircularHealthBar\DemoScene\Scripts\DemoHealthController.cs" />
-    <Compile Include="Assets\UltimateCircularHealthBar\Scripts\ISegmentedHealthBar.cs" />
-    <Compile Include="Assets\Scripts\Server\NetworkManager_Server.cs" />
-    <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\DelayActive.cs" />
-    <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\NewMaterialChange.cs" />
-    <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\VariousMouseOrbit.cs" />
-    <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\ForEffects\ObjectMoveDestroy.cs" />
-    <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\ForEffects\ShieldActivate.cs" />
-    <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\ForEffects\LookAtTarget.cs" />
     <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\ForEffects\_ObjectsMakeBase.cs" />
-    <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\ForEffects\MultipleObjectsMake.cs" />
-    <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\ChangeSizeColor.cs" />
-    <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\VariousEffectsScene.cs" />
+    <Compile Include="Assets\UltimateCircularHealthBar\Scripts\ISegmentedHealthBar.cs" />
     <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\DestroyObject.cs" />
-    <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\ScaleFactorApplyToMaterial.cs" />
-    <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\VariousRotateObject.cs" />
+    <Compile Include="Assets\Scripts\Server\NetworkManager_Server.cs" />
     <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\ForEffects\ObjectMove.cs" />
-    <Compile Include="Assets\SpecialSkillsEffectsPack\Scripts\VariousTranslateMove.cs" />
+    <Compile Include="Assets\Scripts\UI\FadeOut.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -764,7 +765,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{5DFBD896-AEA4-59AF-22B1-CC1C68B7F230}</Project>
+      <Project>{6A6C3DE7-7D3B-CEC3-90A0-7241D914EDDF}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
   </ItemGroup>

@@ -12,11 +12,13 @@ public class TurnManager : Singleton<TurnManager>
 
     private static YourTurn yourTurn;
     private static GameDirector director;
+    private static FadeOut fadeOut;
 
     public static void Init()
     {
         yourTurn = GameObject.Find("YTImage").GetComponent<YourTurn>();
         director = GameObject.Find("Field Canvas").GetComponent<GameDirector>();
+        fadeOut = GameObject.Find("FadeOut").GetComponent<FadeOut>();
     }
 
     public static IEnumerator StartGameCo()
@@ -56,5 +58,6 @@ public class TurnManager : Singleton<TurnManager>
         myTurn = false;
         isLoading = true;
         yourTurn.Show(msg);
+        fadeOut.Show();
     }
 }
